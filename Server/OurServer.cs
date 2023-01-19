@@ -6,30 +6,31 @@ namespace Server
 {
     class OurServer
     {
-        TcpListener server;
+        TcpListener server; // слушатель сообщений от клиентов
 
         public OurServer()
         {
             server = new TcpListener(IPAddress.Parse("127.0.0.1"), 5555);
             server.Start();
 
-            LoopClients();  
+            LoopClients();  // постоянно слушает клиентов
         }
 
         void LoopClients()
         {
-            while (true)
+            while (true) // бесконечный цикл
             {
                 TcpClient client = server.AcceptTcpClient();
 
                 Thread thread = new Thread(() => HandleClient(client));
                 thread.Start();
+                // создаем отдельный поток для общения с конкретным клиентом
             }
         }
 
         void HandleClient(TcpClient client)
         {
-            StreamReader sReader = new StreamReader(client.GetStream(), Encoding.UTF8);
+            StreamReader sReader = new StreamReader(client.GetStream(), Encoding.UTF8); // получаем поток от клиента
             StreamWriter sWriter = new StreamWriter(client.GetStream(), Encoding.UTF8);
 
             while (true)

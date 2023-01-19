@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GB\\bootcamp\\ClientServer\\Client\\Client.csproj": {}
+    "C:\\Users\\НИКОЛАЙ\\Desktop\\BootCamp_ClientServer\\ClientServer\\ClientServerGBBootCamp\\Client\\Client.csproj": {}
   },
   "projects": {
-    "D:\\GB\\bootcamp\\ClientServer\\Client\\Client.csproj": {
+    "C:\\Users\\НИКОЛАЙ\\Desktop\\BootCamp_ClientServer\\ClientServer\\ClientServerGBBootCamp\\Client\\Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GB\\bootcamp\\ClientServer\\Client\\Client.csproj",
+        "projectUniqueName": "C:\\Users\\НИКОЛАЙ\\Desktop\\BootCamp_ClientServer\\ClientServer\\ClientServerGBBootCamp\\Client\\Client.csproj",
         "projectName": "Client",
-        "projectPath": "D:\\GB\\bootcamp\\ClientServer\\Client\\Client.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "D:\\GB\\bootcamp\\ClientServer\\Client\\obj\\",
+        "projectPath": "C:\\Users\\НИКОЛАЙ\\Desktop\\BootCamp_ClientServer\\ClientServer\\ClientServerGBBootCamp\\Client\\Client.csproj",
+        "packagesPath": "C:\\Users\\НИКОЛАЙ\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\НИКОЛАЙ\\Desktop\\BootCamp_ClientServer\\ClientServer\\ClientServerGBBootCamp\\Client\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\НИКОЛАЙ\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -45,7 +43,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -54,7 +53,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.405\\RuntimeIdentifierGraph.json"
         }
       }
     }
